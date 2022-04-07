@@ -1,0 +1,41 @@
+body 
+{
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #leftDiv {
+    flex: 1;
+    height:100%;
+    background: rgb(0, 226, 188);
+  }
+  
+  #rightDiv {
+    flex: 1;
+    height:100%;
+    background: darkblue;
+  }
+  
+  #heading
+  {
+      text-align: center;
+  }
+
+  #subHeading
+  {
+      text-align: center;
+  }
+  
+  #todoText {
+    height: 50%;
+    width: 100%;
+  }
+  
+  .todoItem {
+    display: flex;
+    background: rgb(107, 205, 235);
+    justify-content: space-between;
+    margin: 10px;
+  }
